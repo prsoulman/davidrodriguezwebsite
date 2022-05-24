@@ -18,10 +18,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--color1);
     color: var(--color10);
-    transition: all 1s ease-in-out;
-    background-image: 
-    linear-gradient(
-    rgba(var(--color1),var(var(--color2)),var(var(--color3)),var(var(--color4)), 0.3) 0%)
+    transition: all 1s ease-in-out; 
+    
 
 }
 
@@ -31,5 +29,4 @@
 
 footer {
     display:flex
-    display-inline: flex-end;
 }
