@@ -1,0 +1,35 @@
+:root {
+    --color1:#9c576e;
+    --color2:#955b6a;
+    --color3:#c88898;
+    --color4:#f6a0af;
+    --color5:#f47fa2;
+    --color6:#f0bab2;
+    --color7:#f0bab2;
+    --color8:#9c7d9c;
+    --color9:#6f6482;
+    --color10:#538c9f;
+}
+
+
+
+* {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--color1);
+    color: var(--color10);
+    transition: all 1s ease-in-out;
+    background-image: 
+    linear-gradient(
+    rgba(var(--color1),var(var(--color2)),var(var(--color3)),var(var(--color4)), 0.3) 0%)
+
+}
+
+
+
+
+
+footer {
+    display:flex
+    display-inline: flex-end;
+}
