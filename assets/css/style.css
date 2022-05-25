@@ -13,7 +13,7 @@
 
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: linear-gradient(left to right, var(--color1), var(--color2), var(--color3),var(--color4));
+    background-color: linear-gradient(left to right, var(--color1), var(--color2), var(--color3), var(--color4));
     color: var(--color2);
     /* transition: all 1s ease-in-out; */
 }
@@ -41,11 +41,57 @@ header {
 
 }
 
-.navlink {
+p {
+    padding: 120px;
+}
+
+a {
+    font-weight: bold;
+
+}
+section {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-end;
-    padding:20px;
+    flex: 0 1 200px;
+    align-items: flex-start;
+
+}
+.navlink {
+    position: relative;
+    padding: left 10px;
+    margin:auto;
+    margin-bottom: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 12px;
+    color: var(--color3);
+    font-weight: bold;
+    outline: 6px solid var(--color8);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navlink2 {
+    position: relative;
+    padding: left 1px;
+    margin:auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 100%;
+    color: var(--color2);
+    transition: all 0.5s ease-in-out;
 }
 
 
