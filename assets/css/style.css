@@ -41,6 +41,19 @@ header {
 
 }
 
+.bio {
+    display: flex;
+    position: relative;
+    font-size: 200px;
+    font-weight: bold;
+    color: var(--color7);
+    font-stretch: semi-condensed;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: -400px;
+    z-index:-2;
+}
+
 p {
     padding: 120px;
 }
@@ -54,27 +67,22 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 0 1 200px;
-    align-items: flex-start;
+    outline: 10px solid var(--color8);
+    margin:10%;
 
 }
 .navlink {
     position: relative;
-    padding: left 10px;
     margin:auto;
     margin-bottom: 50px;
-    display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
-    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     min-height: 100%;
-    padding: 12px;
     color: var(--color3);
     font-weight: bold;
-    outline: 6px solid var(--color8);
-    outline-offset: -2px;
+
     transition: all 0.5s ease-in-out;
 }
 
