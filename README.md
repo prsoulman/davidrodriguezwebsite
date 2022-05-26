@@ -5,4 +5,4 @@ This is the 1.0 of my portfolio website. I added as much functionality as i coul
 
 Github: https://github.com/prsoulman/davidrodriguezwebsite.git
 
-Git Pages:  https://prsoulman.github.io/davidrodriguezwebsite/
+Git Pages: https://prsoulman.github.io/davidrodriguezwebsite/
