@@ -10,7 +10,7 @@
     --color9:#6f6482;
     --color10:#538c9f;
 }
-
+/*could probably condens background color, but really curious to see if the gradient works*/
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: linear-gradient(left to right, var(--color1), var(--color2), var(--color3), var(--color4));
@@ -27,7 +27,7 @@ head {
     align-items:right;
 
 }
-
+/*This element is dedicated to the main title*/
 header {
     display: flex;
     flex-direction: row;
@@ -40,7 +40,7 @@ header {
     /* background-color: var(--color6); */
 
 }
-
+/*all titles inside cards are h2's */
 h2 {
     font-size: 50px;
     font-weight: bold;
@@ -56,7 +56,7 @@ img {
     height: 200px;
     width: 200px;
 }
-
+/*Bio word nehind the self-description*/
 .bio {
     display: flex;
     position: relative;
@@ -118,7 +118,7 @@ section {
     transition: all 0.5s ease-in-out;
 }
 
-/**/
+/*this is the parent element to the card1 class*/
 .cards {
 
     display: flex;
@@ -130,20 +130,19 @@ section {
 
 
 .card1 {
-    /**/
+    /*picture could placed differently*/
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100%;
     padding: 120px;
-    /**/
     color: var(--color7);
     font-weight:bolder;
-    /**/
     outline: 6px solid var(--color8);
     outline-offset: -2px;
     transition: all 0.5s ease-in-out;
   }
+  /*avatar element could be modified more in the future*/
 .avatar {
     max-zoom: 110%;
 }
