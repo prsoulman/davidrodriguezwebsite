@@ -12,4 +12,6 @@ Git Pages: https://prsoulman.github.io/davidrodriguezwebsite/
 - *HTML*
 - *CSS*
 ---
-![David Rodriguez Full Stack Portfolio Website](./assets/images/(/Users/davidrodriguez/UCLA_bootcamp/Challenges/davidrodriguezwebsite)/assets/images/Screen Shot 2022-05-26 at 7.40.56 PM.png)
+![David Rodriguez Full Stack Portfolio Website](./assets/images/Screen%Shot%2022-05-26%at%7.40.56%PM.png)
+![David Rodriguez Full Stack Portfolio Website](./assets/images/Screen Shot 2022-05-26 at 7.40.13 PM.png)
+
